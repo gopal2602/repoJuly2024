@@ -12,9 +12,6 @@ public class UserModuleMethods extends DriverScript{
 	 * Method Name		: createUser()
 	 * Purpose			: it is used to create the new user
 	 * Author			: tester1
-	 * Date created		:
-	 * Modified By		:
-	 * Date modified	:
 	 **********************************************/
 	public String createUser(WebDriver oBrowser, Map<String, String> data) {
 		String userName = null;
@@ -53,9 +50,6 @@ public class UserModuleMethods extends DriverScript{
 	 * Method Name		: deleteUser()
 	 * Purpose			: it is to delete the user
 	 * Author			: tester1
-	 * Date created		:
-	 * Modified By		:
-	 * Date modified	:
 	 **********************************************/
 	public boolean deleteUser(WebDriver oBrowser, String userName) {
 		try {
