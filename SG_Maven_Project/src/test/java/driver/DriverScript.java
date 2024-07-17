@@ -24,7 +24,6 @@ public class DriverScript {
 	public static String controllerfilePath = null;
 	
 	
-	
 	@BeforeSuite
 	public void loadClasses() {
 		try {
